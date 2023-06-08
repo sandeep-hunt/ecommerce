@@ -16,3 +16,27 @@ a {
 a:hover {
   text-decoration: none;
 }
+
+ul {
+  list-style: none;
+}
+
+/* Utilities */
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.me-auto {
+  margin-right: auto !important;
+}
+
+.ms-auto {
+  margin-left: auto !important;
+}
+
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
