@@ -13,14 +13,14 @@ const Header = () => {
           <span>Get 50% off on Selected items | Shop Now</span>
         </div>
         <div className="infobar-right">
-          <span><a href="#">Eng</a><a href="#">Location</a></span>
+          <span><span>Eng</span><span>Location</span></span>
         </div>
       </div>
       <nav className="navbar">
         <div className="navbar-brand">
           <a href="#"><img src={logo} className='img-fluid' alt="logo" /></a>
         </div>
-        <ul className="navbar-nav me-auto">
+        <ul className="navbar-nav me-auto ml-4">
           <li className="nav-item">Categories</li>
           <li className="nav-item">Deals</li>
           <li className="nav-item">What's New</li>

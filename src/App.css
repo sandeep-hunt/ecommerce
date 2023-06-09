@@ -1,12 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 :root {
   --white: #FFFFFF;
   --black: #070707;
   --green: #013D29;
+  --pink: #FCF0E4;
 }
 
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: 'poppins';
 }
 
 a {
@@ -39,4 +46,44 @@ ul {
 .mx-auto {
   margin-left: auto !important;
   margin-right: auto !important;
+}
+
+.ml-1 {
+  margin-left: .5rem;
+}
+
+.ml-2 {
+  margin-left: 1rem;
+}
+
+.ml-3 {
+  margin-left: 1.5rem;
+}
+
+.ml-4 {
+  margin-left: 2rem;
+}
+
+.ml-5 {
+  margin-left: 2.5rem;
+}
+
+.mr-1 {
+  margin-right: .5rem;
+}
+
+.mr-2 {
+  margin-right: 1rem;
+}
+
+.mr-3 {
+  margin-right: 1.5rem;
+}
+
+.mr-4 {
+  margin-right: 2rem;
+}
+
+.mr-5 {
+  margin-right: 2.5rem;
 }

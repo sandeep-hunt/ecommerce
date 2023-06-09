@@ -27,6 +27,8 @@
     background: var(--white);
     max-height: 60px;
     display: flex;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
     align-items: center;
     padding-left: 3rem;
     padding-right: 3rem;
@@ -39,6 +41,7 @@
 .navbar-nav {
     display: flex;
     flex-direction: row;
+    gap: 3rem;
 }
 
 .navbar-right {
