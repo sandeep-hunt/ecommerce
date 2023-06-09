@@ -6,8 +6,9 @@ const Banner = () => {
     <div className="banner">
         <div className="banner-wrapper">
             <div className="banner-content">
-                <h1 className='banner-title'>Grab Upto 50% Off on Selected Headphone</h1>
-                <button className='btn btn-primary'>Buy Now</button>
+                <h1 className='banner-title'>Shopping and Department Store.</h1>
+                <p>Shopping is a bit of relaxing hobby for me, which is something troubling for the bank balance.</p>
+                <button className='btn btn-primary mt-2'>Learn More</button>
             </div>
         </div>
     </div>

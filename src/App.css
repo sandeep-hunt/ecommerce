@@ -87,3 +87,64 @@ ul {
 .mr-5 {
   margin-right: 2.5rem;
 }
+
+.mt-1 {
+  margin-top: .5rem;
+}
+
+.mt-2 {
+  margin-top: 1rem;
+}
+
+.mt-3 {
+  margin-top: 1.5rem;
+}
+
+.mt-4 {
+  margin-top: 2rem;
+}
+
+.mt-5 {
+  margin-top: 2.5rem;
+}
+
+.title {
+  color: var(--black);
+  font-weight: 500;
+}
+
+/* Button */
+
+.btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: .5rem 2rem;
+  text-align: center;
+}
+
+.btn-primary {
+  color: var(--white);
+  background: var(--green);
+  border-radius: 50px;
+  font-size: 16px;
+  border: 2px solid var(--green);
+}
+
+.btn-primary:hover {
+  background: none;
+  color: var(--green);
+}
+
+.btn-outline-primary {
+  color: var(--green);
+  background: none;
+  border-radius: 50px;
+  font-size: 16px;
+  border: 2px solid var(--green);
+}
+
+.btn-outline-primary:hover {
+  background: var(--green);
+  color: var(--white);
+}
