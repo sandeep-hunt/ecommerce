@@ -2,9 +2,11 @@
 
 :root {
   --white: #FFFFFF;
+  --bg: #F6F6F6;
   --black: #070707;
   --green: #013D29;
   --pink: #FCF0E4;
+  --grey: rgb(153, 153, 153);
 }
 
 * {
@@ -147,4 +149,9 @@ ul {
 .btn-outline-primary:hover {
   background: var(--green);
   color: var(--white);
+}
+
+.btn-sm {
+  font-size: 14px;
+  padding: .3rem 1rem;
 }

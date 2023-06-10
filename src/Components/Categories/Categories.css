@@ -7,7 +7,7 @@
     gap: 1.5rem;
 }
 
-.card-deck .card {
+.categories  .card-deck .card {
     background: url('../../Assets/Img/furniture.jpg');
     display: flex;
     background-position: center;
