@@ -26,15 +26,32 @@
 .products-bottom {
     margin-top: 1rem;
     margin-bottom: 1rem;
+    display: flex;
 }
 
-.products-bottom .product-card-title {
+.products-bottom .bottom-left {
+    flex: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+
+.products-bottom .bottom-right {
+    flex: 25%;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.products-bottom .bottom-left .product-card-title {
     font-size: 18px;
     font-weight: 500;
-    margin-bottom: .2rem;
 }
 
-.products-bottom .product-card-desc {
+.products-bottom .bottom-left .product-card-desc {
     font-size: 14px;
     color: var(--grey);
+}
+
+.products-bottom .bottom-left button {
+    max-width: 120px;
 }

@@ -1,0 +1,15 @@
+.product_details {
+    padding: 0 3rem;
+}
+
+.prd_details_wrapper {
+    display: flex;
+}
+
+.prd_details_left {
+    flex: 60%;
+}
+
+.prd_details_right {
+    flex: 40%;
+}
