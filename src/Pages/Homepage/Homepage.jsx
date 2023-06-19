@@ -9,7 +9,7 @@ const Homepage = () => {
     <div className="wrapper">
       <Banner/>
       <Categories/>
-      <Products/>
+      <Products name="Headphone For You!"/>
     </div>
   )
 }

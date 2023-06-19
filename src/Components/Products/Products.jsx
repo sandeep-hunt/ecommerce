@@ -6,10 +6,10 @@ import Neckband from '../../Assets/Img/products/neckband.png'
 import Skull from '../../Assets/Img/products/skull.png'
 import { Link } from 'react-router-dom'
 
-const Products = () => {
+const Products = (props) => {
   return (
     <div className="products">
-        <h3 className="title">Headphone For You!</h3>
+        <h3 className="title">{props.name}</h3>
         <div className="products-card-deck mt-3">
             <div className="products-card">
                 <div className="products-top">
